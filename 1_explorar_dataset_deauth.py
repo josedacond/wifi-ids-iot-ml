@@ -14,7 +14,6 @@ print("-" * 50)
 total_archivos_limpios = 0
 archivos_infectados = []
 
-# Buscamos del 0 al 35 (por si acaso tienes hasta el 32 o más)
 for i in range(35):
     archivo = f"Deauth_{i}.csv"
     ruta_completa = os.path.join(CARPETA, archivo)
